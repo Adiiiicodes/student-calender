@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calendar-container">
+    <div class="header">
+      <button class="prev-month">&#60;&#60;</button>
+      <h2 id="month-year">January 2020</h2>
+      <button class="next-month">&#62;&#62;</button>
+    </div>
+    <div class="calendar-header">
+      <div class="day-name">Sun</div>
+      <div class="day-name">Mon</div>
+      <div class="day-name">Tue</div>
+      <div class="day-name">Wed</div>
+      <div class="day-name">Thu</div>
+      <div class="day-name">Fri</div>
+      <div class="day-name">Sat</div>
+    </div>
+    <div class="calendar-body">
+    </div>
+    <div class="event-details">
+      <h3 id="event-title"></h3>
+      <p id="event-description"></p>
+      <p id="event-greeting"></p>
+    </div>
+    <div class="event-form">
+      <h3>Add Event</h3>
+      <input type="text" id="event-title-input" placeholder="Title">
+      <textarea id="event-description-input" placeholder="Description"></textarea>
+      <button id="add-event-btn">Add Event</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
